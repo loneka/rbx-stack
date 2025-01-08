@@ -22,10 +22,13 @@ Fetch = { wally = "red-blox/fetch", version = "^2.0.0" }
 Signal = { wally = "sleitnick/signal", version = "^2.0.1" }
 Loader = { wally = "sleitnick/loader", version = "^2.0.0" }
 Component = { wally = "sleitnick/component", version = "^2.4.8" }
+Zone = "imavafe/zoneplus-reupload@3.2.0"
 
 Fusion = { wally = "elttob/fusion", version = "^0.3.0" }
 OnyxUI = { wally = "imavafe/onyx-ui", version = "^0.5.3" }
 NeoHotbar = { wally = "imavafe/neohotbar", version = "^1.1.1" }
+TopbarPlus = "neura-studios/topbarplus@3.0.2"
+RagdollSystem = { name = "leostormer/ragdoll-system", version = "^0.3.3" }
 
 Universal = { name = "loneka/universal", version = "^0.1.1", index = "loneka" }
 
