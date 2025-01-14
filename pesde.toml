@@ -14,6 +14,16 @@ loneka = "https://github.com/loneka/registry"
 [wally_indices]
 default = "https://github.com/UpliftGames/wally-index"
 
+[scripts]
+roblox_sync_config_generator = ".pesde/scripts/roblox_sync_config_generator.luau"
+sourcemap_generator = ".pesde/scripts/sourcemap_generator.luau"
+
+[dev_dependencies]
+scripts = { name = "pesde/scripts_rojo", version = "^0.1.0", target = "lune" }
+rojo = { name = "pesde/rojo", version = "^7.4.4", target = "lune" }
+selene = { name = "pesde/selene", version = "^0.27.1", target = "lune" }
+zap = { name = "pesde/zap", version = "^0.6.16", target = "lune" }
+
 [dependencies]
 t = { wally = "osyrisrblx/t", version = "^3.1.1" }
 RateLimit = { wally = "red-blox/ratelimit", version = "^1.0.1" }
@@ -32,12 +42,3 @@ TopbarPlus = { wally = "neura-studios/topbarplus", version = "^3.0.2" }
 RagdollSystem = { wally = "leostormer/ragdoll-system", version = "^0.3.3" }
 
 Universal = { name = "loneka/universal", version = "^0.1.1", index = "loneka" }
-
-[scripts]
-roblox_sync_config_generator = ".pesde/scripts/roblox_sync_config_generator.luau"
-sourcemap_generator = ".pesde/scripts/sourcemap_generator.luau"
-
-[dev_dependencies]
-scripts = { name = "pesde/scripts_rojo", version = "^0.1.0", target = "lune" }
-rojo = { name = "pesde/rojo", version = "^7.4.4", target = "lune" }
-selene = { name = "pesde/selene", version = "^0.27.1", target = "lune" }
