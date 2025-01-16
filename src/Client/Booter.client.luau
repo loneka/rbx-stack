@@ -1,6 +1,6 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local Bootloader = require(ReplicatedStorage.Code.Bootloader)
+local Bootloader = require(ReplicatedStorage.Code.Packages.Bootloader)
 
 local function GetServices()
 	local ServiceModules = {}
