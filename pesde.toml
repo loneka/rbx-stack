@@ -34,6 +34,7 @@ Loader = { wally = "sleitnick/loader", version = "^2.0.0" }
 TableUtil = { wally = "sleitnick/table-util", version = "^1.2.1" }
 EnumSerDes = { name = "avafe/enum_ser_des", version = "^0.1.0" }
 ColorUtils = { wally = "csqrl/colour-utils", version = "^1.4.1" }
+Trove = { wally = "sleitnick/trove", version = "^1.5.0" }
 
 Wrapper = { name = "avafe/wrapper", version = "^0.1.0" }
 Fusion = { wally = "elttob/fusion", version = "^0.3.0" }
