@@ -7,7 +7,7 @@ local Theme = require(script.Parent.Theme)
 
 local Themer = OnyxUI.Themer
 
-local Viewport = function(Props)
+local Viewport = function(Scope: Fusion.Scope<any>, Props)
 	local ReturnedGuis = {}
 
 	for _, GuiModule in ipairs(script.Parent.ScreenGuis:GetChildren()) do
@@ -19,10 +19,10 @@ local Viewport = function(Props)
 
 			table.insert(
 				ReturnedGuis,
-				Gui {
+				Gui(Scope, {
 					Name = GuiModule.Name,
 					Parent = Props.Target,
-				}
+				})
 			)
 		end
 	end
